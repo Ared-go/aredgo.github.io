@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+}
+
+em,
+i {
+    /*让所有文字不倾斜*/
+    font-style: normal;
+}
+
+.head {
+    background: url(../imgs/曜.jpg) center -100px no-repeat;
+}
+
+.hbox {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 80px;
+    background: url(../imgs/logo.png) center center no-repeat;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 20px;
+    padding: 0 5px;
+    font-size: 30px;
+    color: #bbedf8;
+    font-weight: 1000;
+    box-sizing: border-box;
+}
+
+.nav li a:hover {
+    border-bottom: 3px solid #e0ba62;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.search {
+    float: right;
+    margin: 24px 10px;
+}
+
+input {
+    outline: none;
+}
+
+.search .ipt {
+    float: left;
+    width: 150px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid #e0ba62;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search button {
+    float: left;
+    width: 30px;
+    height: 32px;
+    border: 1px solid #e0ba62;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+    background: url(../imgs/王者荣耀.png) center center no-repeat;
+}
+
+
+/* ---------------------body部分----------------- */
+
+.body {
+    height: 600px;
+    background: url(../imgs/王者背景图片.jpg) center -20px no-repeat;
+}
+
+.bbox {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.sideBar {
+    float: left;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.sideBar ul li {
+    margin: 0 40px 0 20px;
+    height: 70px;
+}
+
+.sideBar ul li a {
+    float: left;
+    height: 50px;
+    line-height: 70px;
+    font-size: 30px;
+    color: rgb(252, 248, 18);
+    font-weight: 500;
+}
+
+.sideBar ul li span {
+    float: right;
+    line-height: 70px;
+    font-size: 30px;
+    color: rgb(252, 248, 18);
+    font-weight: 500;
+}
+
+.sideBar ul li:hover a,
+.sideBar ul li:hover span {
+    color: #f2f5fe;
+}
+
+.sideBar ul li:hover {
+    margin: 0 20px 0 20px;
+}
+
+.hero {
+    float: right;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.hero p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #dfb962;
+    margin: 10px 20px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+.hero .margic {
+    width: 300px;
+    height: 70px;
+    margin: 10px 10px;
+    background: url(../imgs/法师.png) 10px center no-repeat;
+}
+
+.progress li {
+    margin: 0 0 20px 20px;
+}
+
+.hero .progress em {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.hero .progress span[class^="property"] {
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    background-color: #1c8fea;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+.hero .progress li .property2 {
+    width: 60px;
+    background-color: #e7ca63;
+}
+
+.hero .progress li .property3 {
+    width: 160px;
+    background-color: #5dd473;
+}
+
+.hero .progress li .property4 {
+    width: 200px;
+    background-color: #e84a33;
+}
+
+.story {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+
+/* ---------------------推荐区---------------- */
+
+.recommend {
+    background-color: #e3f3ff;
+    overflow: hidden;
+}
+
+.title {
+    width: 1200px;
+    height: 60px;
+    margin: 10px auto;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 500px;
+    color: #996c29;
+}
+
+.title span {
+    margin: 0 20px;
+    color: #d6af50;
+}
+
+.hero_box {
+    width: 1220px;
+    /* height: 500px; */
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.hero_box li {
+    float: left;
+    margin: 20px 0 0 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.hero_box li a {
+    display: block;
+    width: 580px;
+    height: 240px;
+    box-sizing: border-box;
+    background: url(../imgs/云中君.jpg) center -50px no-repeat;
+}
+
+.hero_box li a:hover {
+    border: 3px solid #d6af50;
+}
+
+.hero_box li #yao {
+    background: url(../imgs/瑶.jpg) center -50px no-repeat;
+}
+
+.hero_box li #machao {
+    background: url(../imgs/马超.jpg) -700px -120px no-repeat;
+}
+
+.hero_box li #yaos {
+    background: url(../imgs/曜.jpg) center top no-repeat;
+}
+
+.hero_box li #xishi {
+    background: url(../imgs/西施.jpg)-900px top no-repeat;
+}
+
+.hero_box li #change {
+    background: url(../imgs/嫦娥.jpg)-900px -100px no-repeat;
+}
+
+.hero_box li #luban {
+    background: url(../imgs/鲁班大师.jpg)-900px top no-repeat;
+}
+
+.hero_box li #houyi {
+    background: url(../imgs/后羿.jpg)-900px -100px no-repeat;
+}
+
+.hero_box li #zhaoyun {
+    background: url(../imgs/赵云.jpg)-800px -260px no-repeat;
+}
+
+
+/* ----------------------尾部制作--------------------------- */
+
+.footer {
+    height: 300px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.footer .fbox {
+    width: 1200px;
+    margin: 20px auto;
+    border-top: 2px solid #ccc;
+}
+
+.footer .fbox .copyright {
+    float: left;
+}
+
+.footer .fbox .copyright p {
+    margin: 20px 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer .fbox .copyright .btn {
+    display: block;
+    height: 33px;
+    width: 117px;
+    line-height: 33px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00a4ff;
+}
+
+.proclaim {
+    float: right;
+    width: 450px;
+    background-color: #fff;
+}
+
+#tag {
+    float: left;
+    width: 60px;
+    margin: 6px 10px;
+    vertical-align: middle;
+}
+
+.college {
+    float: left;
+}
+
+.college h1 {
+    font-size: 35px;
+    color: #1c8fea;
+}
+
+.college p {
+    margin: 3px 0;
+    font-size: 15px;
+    color: #00a4ff;
+}
+
+.lab {
+    float: left;
+    width: 25px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #332966;
+    border: 3px solid #5dd473;
+    border-radius: 5px;
+}
+
+.cele {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    font-size: 20px;
+    color: #c16da8;
+}
+
+.last {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #41322d;
+}
